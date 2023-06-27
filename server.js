@@ -11,7 +11,7 @@ app.use('/', router); // Mount the router middleware at the root path '/'
 
 // Start server and listen for incoming connections on specified port
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  console.log(`server running on port ${port}`);
 });
 
 export default app;
